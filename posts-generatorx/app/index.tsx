@@ -22,11 +22,10 @@ export default function Home() {
       const response = await fetch("https://api-inference.huggingface.co/models/gpt2", {
         method: "POST",
         headers: {
-          "Authorization": "Bearer YOUR_HF_TOKEN",
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          inputs: `Crée un post Facebook ${tone}, long et viral : ${input}`
+          inputs: `Crée un post Facebook ${tone}, engageant et viral : ${input}`
         })
       });
 
