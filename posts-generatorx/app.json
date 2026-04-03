@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "postsgeneratorx",
     "userInterfaceStyle": "automatic",
-
     "android": {
       "package": "com.sidy6072.postsgeneratorx",
       "adaptiveIcon": {
@@ -15,7 +14,6 @@
         "backgroundImage": "./assets/images/android-icon-background.png"
       }
     },
-
     "plugins": [
       "expo-router",
       [
@@ -26,9 +24,17 @@
         }
       ]
     ],
-
     "experiments": {
       "typedRoutes": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.sidy6072.postsgeneratorx"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "fb18ac0c-bd58-48b3-a959-9d45bf8af274"
+      }
     }
   }
 }
