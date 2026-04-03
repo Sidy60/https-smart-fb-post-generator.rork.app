@@ -1,3 +1,4 @@
+import React from 'react';
 import { View } from 'react-native';
 import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
 
